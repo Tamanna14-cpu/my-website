@@ -14,10 +14,11 @@ p{
     color: dimgray;
 }
 section{
-    height: 800px;
+    height: 750px;
 }
 .introductory{
     background-image: url(images/header-bg.png);
+    background-size: cover;
 }
 .half-width{
     float: left;
@@ -27,7 +28,7 @@ section{
     margin-top: 6%;
 }
 .half-width img{
-    width: 100%;
+    width: 500px;
 }
 .marrone{
     color: mediumvioletred;
@@ -43,6 +44,7 @@ section{
 }
 .biography{
     background-image: url(images/biography-bg.png);
+    background-size: cover;
 }
 .text-center{
     padding-top: 130px;
@@ -59,6 +61,7 @@ section{
 }
 .work{
     background-image: url(images/latest-work-bg.png);
+    background-size: cover;
 }
 .text-align{
     text-align: center;
@@ -67,16 +70,14 @@ section{
 .conclusion{
     text-align: center;
     background-image: url(images/footer-bg.png);
+    background-size: cover;
 }
 .link-button2{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 12px 22px;
     background-image: linear-gradient(180deg, rgb(164, 84, 184), rgb(175, 17, 117));
-    border-radius: 4px;
-    width: 40%;
-    margin-left: 350px;
+    width: 35%;
+    border-radius: 7px;
+    padding: 20px;
+    margin: auto;
     margin-top: 50px;
 }
 footer{
