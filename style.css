@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 15px;
+    color: dimgray;
+}
+section{
+    height: 800px;
+}
+.introductory{
+    background-image: url(images/header-bg.png);
+}
+.half-width{
+    float: left;
+    width: 40%;
+    padding-left: 3%;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+.half-width img{
+    width: 100%;
+}
+.marrone{
+    color: mediumvioletred;
+    margin-top: 0px;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 22px;
+    background-image: linear-gradient(180deg, rgb(164, 84, 184), rgb(175, 17, 117));
+    border-radius: 4px;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+}
+.text-center{
+    padding-top: 130px;
+}
+.one-third{
+    float: left;
+    width: 25%;
+    padding-right: 1%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.one-third img{
+    width: 100%;
+}
+.work{
+    background-image: url(images/latest-work-bg.png);
+}
+.text-align{
+    text-align: center;
+    padding-top: 90px;
+}
+.conclusion{
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+}
+.link-button2{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 22px;
+    background-image: linear-gradient(180deg, rgb(164, 84, 184), rgb(175, 17, 117));
+    border-radius: 4px;
+    width: 40%;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+footer{
+    text-align: center;
+    color: dimgray;
+    font-size: 15px;
+}
